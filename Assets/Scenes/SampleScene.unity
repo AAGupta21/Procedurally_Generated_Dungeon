@@ -156,7 +156,7 @@ MonoBehaviour:
   WaitTimeBeforeDestroy: 2
   VictoryRoomIndex: 0
   ActiveWeapon: {fileID: 0}
-  DifficultyLevel: 6
+  DifficultyLevel: 15
   EnemyParent: {fileID: 6411392051389604238, guid: e8878d31fed6dcc4e83fbeab4deccaa0,
     type: 3}
   EnemyList:
@@ -778,17 +778,17 @@ PrefabInstance:
     - target: {fileID: 7315977479485085799, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7315977479485085799, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7315977479485085799, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7315977479485085799, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
         type: 3}
@@ -859,6 +859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 639913645360986593, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
+        type: 3}
+      propertyPath: MoveSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3314576316911754857, guid: 62ac2ea7c5e06704f8a4300e6c60c879,
         type: 3}

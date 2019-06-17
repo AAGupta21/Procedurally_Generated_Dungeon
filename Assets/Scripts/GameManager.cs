@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public int VictoryRoomIndex = 0;
     public GameObject ActiveWeapon = null;
 
-    public float DifficultyLevel = 7;
+    public float DifficultyLevel = 15;
     public GameObject EnemyParent;
     public GameObject[] EnemyList;
     public int StatPointsAgi = 1;
